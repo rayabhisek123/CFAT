@@ -10,7 +10,6 @@ torch==2.0.1
 torchaudio==2.0.2
 torchsummary==1.5.1
 torchvision==0.15.2
-basicsr==1.4.2
 scipy==1.9.3
 ptflops==0.7
 Pillow==9.3.0
