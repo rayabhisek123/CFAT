@@ -5,7 +5,7 @@
 
 <sup>1</sup>Indian Institute of Technology Patna, India
 
-## Updates
+## :climbing:Updates
 - ✅ 2022-05-09: Release the first version of the paper at Arxiv.
 - ✅ 2022-05-09: Release the supplementary material of the paper at Arxiv.
 - ✅ 2022-05-20: Release the codes, models and results of CFAT.
@@ -14,12 +14,11 @@
 - **(To do)** Add the pre-trained model of CFAT for SRx4.
 - **(To do)** Add a Replicate demo for CFAT model implementation. 
 - **(To do)** Release extensive code of CFAT for Multiple Image Restoration tasks.
-- **(To do)** Update the Replicate demo for Real-World SR. 
 
 
 <br>
 <p align="center">
-  <img src="figures/model_vs_SOTA.png" align="center" width="70%">
+  <img src="figures/model_vs_SOTA.png" align="center" width="700">
   <br>
   Fig. Proposed CFAT vs other SOTA models.
 </p>
@@ -33,6 +32,100 @@ Transformer-based models have revolutionized the field of image super-resolution
 
 The triangular window mechanism that we proposed is beneficial not only in super-resolution tasks but also in various other computer vision applications that implement the rectangular window technique in their mainframe.
 
+## Results
+
+- **Quantitative Results**
+  
+<br>
+<p align="center">
+  <img src="figures/quantitative_results.png" align="center" width="700">
+  <br>
+  Fig. Comparing performance (PSNR in dB) of various state-of-the-art models with CFAT.
+</p>
+<be>
+
+- **Qualitative Results**
+
+<br>
+<p align="center">
+  <img src="figures/All_fig.png" align="center" width="700">
+  <br>
+  Fig. Visual Comparison of CFAT with other state-of-the-art methods.
+</p>
+<be>
+
+- **LAM Results**
+
+<br>
+<p align="center">
+  <img src="figures/LAM_Compare.png" align="center" width="700">
+  <br>
+  Fig. LAM results and corresponding Diffusion Index for CFAT and various SOTA methods.
+</p>
+<be>
+
+
+## Training Settings
+- Requirements
+  > - Platforms: Ubuntu 20.04.2, cuda-11.2.0
+  > - Python 3.8.18, PyTorch == 2.1.0
+  > - Requirements: see requirements.txt
+
+- Installation
+
+```shell
+
+# download code
+git clone https://github.com/rayabhisek123/CFAT
+cd CFAT
+pip install -r requirements.txt
+pip install basicsr
+python setup.py develop
+```
+- Datasets
+  
+  Download the training datasets:
+
+  > - [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+  > - [Flickr2K](https://www.kaggle.com/datasets/hliang001/flickr2k?select=Flickr2K)
+
+  Download the testing datasets:
+
+  > - [Set5, Set14, BSD100，Urban100](https://figshare.com/articles/dataset/BSD100_Set5_Set14_Urban100/21586188)
+  > - [Manga109](https://www.kaggle.com/datasets/guansuo/manga109)
+  
+## Training
+
+Command to train **CFAT** after placing datasets at their respective repositories
+
+```shell
+CUDA_VISIBLE_DEVICES=0,1,2 python3 train.py
+```
+
+## Checkpoints (Pre-trained Models)
+
+The inference results on benchmark datasets will be available soon.
+
+## Testing
+
+Run the following command after placing the Pre-trained Models in the given repository
+
+```shell
+CUDA_VISIBLE_DEVICES=0,1 python3 test.py
+```
+**Note: For different configurations, change the argument values. We will update the corresponding configuration files(.yml) soon.
+
+## Testing Results
+
+<br>
+<p align="center">
+  <img src="figures/quantitative_results_table.png" align="center" width="700">
+  <br>
+  Fig. Quantitative comparison of the CFAT with various state-of-the-art SR methods. Red: Best & Green: Second Best.
+</p>
+<be>
+
+
 ## Citations
 #### BibTeX
 
@@ -45,6 +138,7 @@ The triangular window mechanism that we proposed is beneficial not only in super
     }
 
 ```
+
 ## Acknowledgement
 **Some parts of this code are adapted from:**
 - HAT
@@ -52,6 +146,9 @@ The triangular window mechanism that we proposed is beneficial not only in super
   
 We thank the authors for sharing codes of their great works.
 
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) and was originally developed by [@abhisek-ray](https://github.com/rayabhisek123).
 
 ## Contact
 If you have any questions, please email rayabhisek0610@gmail.com to discuss with the authors.
