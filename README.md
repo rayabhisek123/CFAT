@@ -10,9 +10,9 @@
 - ✅ 2022-05-09: Release the first version of the paper at Arxiv.
 - ✅ 2022-05-09: Release the supplementary material of the paper at Arxiv.
 - ✅ 2022-05-20: Release the codes, models and results of CFAT.
-- ✅ 2022-08-29: Add a Replicate demo for SRx4.
 - **(To do)** Update repo with CVPR version.
-- **(To do)** Release the small (CFAT-S) and large (CFAT-L) versions of our model. 
+- **(To do)** Release the small (CFAT-S) and large (CFAT-L) versions of our model.
+- **(To do)** Add the pre-trained model of CFAT for SRx4.
 - **(To do)** Add a Replicate demo for CFAT model implementation. 
 - **(To do)** Release extensive code of CFAT for Multiple Image Restoration tasks.
 - **(To do)** Update the Replicate demo for Real-World SR. 
@@ -37,7 +37,7 @@
 - HAT
 - SwinIR
   
-We thank the authors for sharing codes of such great works.
+We thank the authors for sharing codes of their great works.
 
 
 ## Contact
