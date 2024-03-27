@@ -141,8 +141,8 @@ CUDA_VISIBLE_DEVICES=0,1 python3 test.py
 
 ## Acknowledgement
 **Some parts of this code are adapted from:**
-- HAT
-- SwinIR
+- [HAT](https://github.com/XPixelGroup/HAT)
+- [SwinIR](https://github.com/JingyunLiang/SwinIR)
   
 We thank the authors for sharing codes of their great works.
 
