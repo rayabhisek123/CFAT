@@ -1,5 +1,6 @@
 ### [CVPR 2024] CFAT: Unleashing TriangularWindows for Image Super-resolution [[Paper Link]](https://arxiv.org/abs/2403.16143)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frayabhisek123%2FCFAT&countColor=%23263759)
+[![GitHub Stars](https://img.shields.io/github/stars/rayabhisek123/CFAT?style=social)](https://github.com/rayabhisek123/CFAT)
 
 [Abhisek Ray](https://scholar.google.co.in/citations?user=a7HOeC8AAAAJ&hl=en)<sup>1</sup>, [Gaurav Kumar]()<sup>1</sup>, [Maheshkumar H. Kolekar]()<sup>1</sup>
 
