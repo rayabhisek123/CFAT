@@ -130,12 +130,12 @@ CUDA_VISIBLE_DEVICES=0,1 python3 test.py
 #### BibTeX
 
 ```
-@article{ray2023cfat,
-      title={CFAT: Unleashing TriangularWindows for Image Super-resolution},
-      author={Ray, Abhisek and Kumar, Gaurav and Kolekar, Maheshkumar},
-      journal={arXiv preprint arXiv:2403.16143},
-      year={2023}
-    }
+@article{ray2024cfat,
+  title={CFAT: Unleashing TriangularWindows for Image Super-resolution},
+  author={Ray, Abhisek and Kumar, Gaurav and Kolekar, Maheshkumar H},
+  journal={arXiv preprint arXiv:2403.16143},
+  year={2024}
+}
 
 ```
 
