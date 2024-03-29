@@ -1,5 +1,4 @@
-## [CVPR 2024] CFAT:Unleashing TriangularWindows for Image Super-resolution 
-<p align="center">
+## [CVPR 2024] CFAT: Unleashing TriangularWindows for Image Super-resolution <p align="center">
 <a href="https://arxiv.org/abs/2403.16143" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2403.16143-b31b1b.svg?style=flat" /></a></p>
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frayabhisek123%2FCFAT&countColor=%23263759)
