@@ -33,7 +33,7 @@ The triangular window mechanism that we proposed is beneficial not only in super
 ## Results
 
 - **Quantitative Results**
-  
+
 <br>
 <p align="center">
   <img src="figures/quantitative_results.png" align="center" width="700">
