@@ -1,4 +1,4 @@
-## [CVPR 2024] CFAT: Unleashing TriangularWindows for Image Super-resolution
+## CFAT: Unleashing TriangularWindows for Image Super-resolution
 ![](https://i.imgur.com/waxVImv.png)
 [Abhisek Ray](https://scholar.google.co.in/citations?user=a7HOeC8AAAAJ&hl=en)<sup>1</sup>, [Gaurav Kumar]()<sup>1</sup>, [Maheshkumar H. Kolekar]()<sup>1</sup>
 
