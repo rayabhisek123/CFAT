@@ -1,12 +1,12 @@
-## [CVPR 2024] CFAT: Unleashing TriangularWindows for Image Super-resolution <p align="center">
-<a href="https://arxiv.org/abs/2403.16143" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2403.16143-b31b1b.svg?style=flat" /></a></p>
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frayabhisek123%2FCFAT&countColor=%23263759)
-[![GitHub Stars](https://img.shields.io/github/stars/rayabhisek123/CFAT?style=social)](https://github.com/rayabhisek123/CFAT)
-
+## [CVPR 2024] CFAT: Unleashing TriangularWindows for Image Super-resolution
+![](https://i.imgur.com/waxVImv.png)
 [Abhisek Ray](https://scholar.google.co.in/citations?user=a7HOeC8AAAAJ&hl=en)<sup>1</sup>, [Gaurav Kumar]()<sup>1</sup>, [Maheshkumar H. Kolekar]()<sup>1</sup>
 
 <sup>1</sup>Indian Institute of Technology Patna, India
+
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2403.16143)
+[![GitHub Stars](https://img.shields.io/github/stars/rayabhisek123/CFAT?style=social)](https://github.com/rayabhisek123/CFAT)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frayabhisek123%2FCFAT&countColor=%23263759)
 
 ## :climbing: Updates
 - ✅ 2022-05-09: Release the first version of the paper at Arxiv.
@@ -18,22 +18,17 @@
 - **(To do)** Add a Replicate demo for CFAT model implementation. 
 - **(To do)** Release extensive code of CFAT for Multiple Image Restoration tasks.
 
+<hr />
 
-<br>
-<p align="center">
-  <img src="figures/model_vs_SOTA.png" align="center" width="700">
-  <br>
-  Fig. Proposed CFAT vs other SOTA models.
-</p>
-<be>
-
-## Abstract
-
-Transformer-based models have revolutionized the field of image super-resolution (SR) by harnessing their inherent ability to capture complex contextual features. The overlapping rectangular shifted window technique used in transformer architecture nowadays is a common practice in super-resolution models to improve the quality and robustness of image upscaling. However, it suffers from distortion at the boundaries and has limited unique shifting modes. To overcome these weaknesses, we propose a non-overlapping triangular window technique that synchronously works with the rectangular one to mitigate boundary-level distortion and allows the model to access more unique sifting modes. In this paper, we propose a Composite Fusion Attention Transformer (CFAT) that incorporates triangular-rectangular window-based local attention with a channel-based global attention technique in image super-resolution. As a result, CFAT enables attention mechanisms to be activated on more image pixels and captures long-range, multi-scale features to improve SR performance. The extensive experimental results and ablation study demonstrate the effectiveness of CFAT in the SR domain. Our proposed model shows a significant 0.7 dB performance improvement over other state-of-the-art SR architectures.
+![main figure](figures/model_vs_SOTA.png)
+> **Abstract:** *Transformer-based models have revolutionized the field of image super-resolution (SR) by harnessing their inherent ability to capture complex contextual features. The overlapping rectangular shifted window technique used in transformer architecture nowadays is a common practice in super-resolution models to improve the quality and robustness of image upscaling. However, it suffers from distortion at the boundaries and has limited unique shifting modes. To overcome these weaknesses, we propose a non-overlapping triangular window technique that synchronously works with the rectangular one to mitigate boundary-level distortion and allows the model to access more unique sifting modes. In this paper, we propose a Composite Fusion Attention Transformer (CFAT) that incorporates triangular-rectangular window-based local attention with a channel-based global attention technique in image super-resolution. As a result, CFAT enables attention mechanisms to be activated on more image pixels and captures long-range, multi-scale features to improve SR performance. The extensive experimental results and ablation study demonstrate the effectiveness of CFAT in the SR domain. Our proposed model shows a significant 0.7 dB performance improvement over other state-of-the-art SR architectures.*
+<hr />
 
 ## Highlight
 
 The triangular window mechanism that we proposed is beneficial not only in super-resolution tasks but also in various other computer vision applications that implement the rectangular window technique in their mainframe.
+
+<hr />
 
 ## Results
 
@@ -67,6 +62,7 @@ The triangular window mechanism that we proposed is beneficial not only in super
 </p>
 <be>
 
+<hr />
 
 ## Training Settings
 - Requirements
@@ -96,6 +92,8 @@ python setup.py develop
 
   > - [Set5, Set14, BSD100，Urban100](https://figshare.com/articles/dataset/BSD100_Set5_Set14_Urban100/21586188)
   > - [Manga109](https://www.kaggle.com/datasets/guansuo/manga109)
+
+<hr />
   
 ## Training
 
@@ -105,9 +103,13 @@ Command to train **CFAT** after placing datasets at their respective repositorie
 CUDA_VISIBLE_DEVICES=0,1,2 python3 train.py
 ```
 
+<hr />
+
 ## Checkpoints (Pre-trained Models)
 
 The inference results on benchmark datasets will be available soon.
+
+<hr />
 
 ## Testing
 
@@ -117,6 +119,8 @@ Run the following command after placing the Pre-trained Models in the given repo
 CUDA_VISIBLE_DEVICES=0,1 python3 test.py
 ```
 **Note: For different configurations, change the argument values. We will update the corresponding configuration files(.yml) soon.
+
+<hr />
 
 ## Testing Results
 
@@ -128,6 +132,7 @@ CUDA_VISIBLE_DEVICES=0,1 python3 test.py
 </p>
 <be>
 
+<hr />
 
 ## Citations
 #### BibTeX
@@ -141,6 +146,7 @@ CUDA_VISIBLE_DEVICES=0,1 python3 test.py
 }
 
 ```
+<hr />
 
 ## Acknowledgement
 **Some parts of this code are adapted from:**
@@ -149,9 +155,13 @@ CUDA_VISIBLE_DEVICES=0,1 python3 test.py
   
 We thank the authors for sharing codes of their great works.
 
+<hr />
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) and was originally developed by [@abhisek-ray](https://github.com/rayabhisek123).
+
+<hr />
 
 ## Contact
 If you have any questions, please email rayabhisek0610@gmail.com to discuss with the authors.
