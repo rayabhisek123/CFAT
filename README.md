@@ -1,4 +1,4 @@
-## CFAT: Unleashing Triangular Windows for Image Super-resolution
+## [CFAT: Unleashing Triangular Windows for Image Super-resolution](https://openaccess.thecvf.com/content/CVPR2024/html/Ray_CFAT_Unleashing_Triangular_Windows_for_Image_Super-resolution_CVPR_2024_paper.html)<sup>1</sup>
 ![](https://i.imgur.com/waxVImv.png)
 [Abhisek Ray](https://scholar.google.co.in/citations?user=a7HOeC8AAAAJ&hl=en)<sup>1</sup>, [Gaurav Kumar]()<sup>1</sup>, [Maheshkumar H. Kolekar]()<sup>1</sup>
 
@@ -9,10 +9,10 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frayabhisek123%2FCFAT&countColor=%23263759)
 
 ## :climbing: Updates
-- ✅ 2022-05-09: Release the first version of the paper at Arxiv.
-- ✅ 2022-05-09: Release the supplementary material of the paper at Arxiv.
-- ✅ 2022-05-20: Release the codes, models and results of CFAT.
-- **(To do)** Update repo with CVPR version.
+- ✅ 2024-03-24: Release the first version of the paper at Arxiv.
+- ✅ 2024-03-24: Release the supplementary material of the paper at Arxiv.
+- ✅ 2024-03-24: Release the codes, models and results of CFAT.
+- ✅ 2024-06-11: Update repo with CVPR version.
 - **(To do)** Release the small (CFAT-S) and large (CFAT-L) versions of our model.
 - **(To do)** Add the pre-trained model of CFAT for SRx4.
 - **(To do)** Add a Replicate demo for CFAT model implementation. 
