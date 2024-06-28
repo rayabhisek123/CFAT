@@ -8,6 +8,8 @@
 [![GitHub Stars](https://img.shields.io/github/stars/rayabhisek123/CFAT?style=social)](https://github.com/rayabhisek123/CFAT)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frayabhisek123%2FCFAT&countColor=%23263759)
 
+⭐ If you find "**CFAT**" helpful to your research, Don't forget to give a star to this repo. Thanks! 🤗
+
 ## :climbing: Updates
 - ✅ 2024-03-24: Release the first version of the paper at Arxiv.
 - ✅ 2024-03-24: Release the supplementary material of the paper at Arxiv.
