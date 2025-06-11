@@ -15,10 +15,6 @@
 - ✅ 2024-03-24: Release the supplementary material of the paper at Arxiv.
 - ✅ 2024-03-24: Release the codes, models and results of CFAT.
 - ✅ 2024-06-11: Update repo with CVPR version.
-- **(To do)** Release the small (CFAT-S) and large (CFAT-L) versions of our model.
-- **(To do)** Add the pre-trained model of CFAT for SRx4.
-- **(To do)** Add a Replicate demo for CFAT model implementation. 
-- **(To do)** Release extensive code of CFAT for Multiple Image Restoration tasks.
 
 <hr />
 
